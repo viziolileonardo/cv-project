@@ -1,0 +1,96 @@
+/* rush.css - Dark Mode */
+
+/* Add styles for the "Switch CVs" button */
+#switchBtn {
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #switchBtn:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  
+  #switchBtn:active {
+    background-color: #003d80; /* Even darker color on active state */
+  }
+
+/* Set body and font styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  /* Set styles for the fixed sidebar navigation */
+  #sidebar {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #111;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  #sidebar:hover {
+    opacity: 1;
+  }
+  
+  #navbarNav {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #navbarNav li {
+    margin-bottom: 10px;
+  }
+  
+  #navbarNav li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #navbarNav li a:hover {
+    background-color: #333;
+  }
+  
+  /* Add specific styles for Leonardo Vizioli CV (Bauhasian Aesthetics) */
+  #leonardo-cv {
+    color: #ddd;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  /* Add specific styles for Vincent CV (Classic Aesthetics) */
+  #vincent-cv {
+    color: #ddd;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  /* Add common styles for CV content */
+  .text-center {
+    text-align: center;
+  }
+  
+  .img-fluid {
+    max-width: 200px;
+    border-radius: 50%;
+  }
+  
