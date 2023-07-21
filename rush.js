@@ -20,4 +20,3 @@ function switchCV() {
 
 // Event listener for the "Switch CVs" button
 document.getElementById('switchBtn').addEventListener('click', switchCV);
-  
