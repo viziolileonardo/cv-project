@@ -96,14 +96,43 @@ body {
   max-width: 200px;
   border-radius: 50%;
 }
-
-.py-4 {
-  text-align: center;
-  font-size: 30px;
+.h3-work-experience {
   border: #ddd 2px solid;
-  padding: 2%;
+}
+.h3-education {
+  border: #ddd 2px solid;
+}
+.h3-skills {
+  border: #ddd 2px solid;
+}
+.h3-extracurriculars {
+  border:  #ddd 2px solid;
+}
+.navbar-brand{
+  border:#ddd 2px solid;
+  background-color: #ddd;
+  background-size: 100px;
+}
+.nav-item {
+  width: 100%;
+  font: darkgoldenrod;
 }
 
-.h3-border {
+.parallax-background {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1; /* Place the background behind the content */
+  background-image: url(https://www.visitbrasil.com/wp-content/uploads/2021/06/GettyImages-1162468341.jpg);
+  box-shadow: 2px #111;
+  filter: blur(8px);
+}
+
+#leonardo-cv h3,
+#vincent-cv h3,
+#leonardo-cv ul,
+#vincent-cv ul {
+  margin: 0;
+  padding: 5px;
   border: #ddd 2px solid;
 }
